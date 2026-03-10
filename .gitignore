@@ -3,6 +3,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# OS / editor clutter
+.DS_Store
+.DS_Store?
+Thumbs.db
+.vscode/
+.idea/
+
 # C extensions
 *.so
 
@@ -77,6 +84,9 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# Notebook / ML runtime artifacts
+catboost_info/
 
 # IPython
 profile_default/
