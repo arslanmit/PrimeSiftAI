@@ -97,6 +97,8 @@ target/
 catboost_info/
 dask-worker-space/
 .dask/
+.playwright-cli/
+tmp/
 mlruns/
 wandb/
 lightning_logs/
