@@ -90,9 +90,34 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints/
 *.nbconvert.ipynb
+.jupyter/
+.ipython/
 
 # Notebook / ML runtime artifacts
 catboost_info/
+dask-worker-space/
+.dask/
+mlruns/
+wandb/
+lightning_logs/
+runs/
+
+# Trained model and checkpoint artifacts
+*.cbm
+*.joblib
+*.onnx
+*.pickle
+*.pkl
+*.pt
+*.pth
+*.ubj
+*.h5
+*.keras
+checkpoints/
+
+# Generated analysis results
+*_result.csv
+!breast_cancer_dataset_edit_result.csv
 
 # IPython
 profile_default/
@@ -189,5 +214,3 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-.DS_Store
-.DS_Store
